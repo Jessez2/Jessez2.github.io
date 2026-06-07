@@ -1,6 +1,6 @@
 # Juncai Zhang GitHub Pages Site
 
-This folder contains a static academic homepage inspired by the layout of https://neoyanghc.github.io/.
+This folder contains a static academic homepage inspired by the layout of https://hyda.cc/(Haiyue Dai, a excellent causal scholar).
 
 ## How to use
 
