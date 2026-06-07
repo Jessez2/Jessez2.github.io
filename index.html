@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal academic homepage for machine learning, causal discovery, and single-cell perturbation modeling."
+    />
+    <title>Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Your Name</a>
+      <button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <aside class="profile-panel" aria-label="Profile summary">
+        <img class="profile-photo" src="assets/profile-placeholder.svg" alt="Your profile photo placeholder" />
+        <h1>Your Name</h1>
+        <p class="role">Graduate Researcher</p>
+        <p class="affiliation">Your University / Lab</p>
+        <p class="location">City, Country</p>
+
+        <section class="interest-block" aria-labelledby="research-interests">
+          <h2 id="research-interests">Research Interests</h2>
+          <ul class="interest-list">
+            <li>Causal Discovery</li>
+            <li>Machine Learning</li>
+            <li>Single-cell Perturbation Modeling</li>
+          </ul>
+        </section>
+
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/your-github-username">GitHub</a>
+          <a href="https://scholar.google.com/">Google Scholar</a>
+        </div>
+      </aside>
+
+      <section class="content-column">
+        <section class="section" id="about">
+          <h2>About</h2>
+          <p>
+            I am a researcher working on machine learning methods for causal discovery, conditional
+            independence testing, and biological perturbation modeling. My current work studies how
+            learned statistical or generative models can be integrated with structured causal
+            algorithms while keeping evaluation grounded in graph recovery, out-of-distribution
+            prediction, and reproducible experimental settings.
+          </p>
+          <p>
+            My recent interests include PC-aware neural conditional-independence oracles, federated
+            causal structure learning under heterogeneous observational data, and flow-matching
+            approaches for single-cell perturbation prediction.
+          </p>
+          <p>
+            I am open to research discussions, collaboration, and careful paper-level feedback.
+            Please feel free to contact me.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2>Selected Publications</h2>
+            <a class="text-link" href="publications.html">View All -&gt;</a>
+          </div>
+
+          <article class="publication-item">
+            <h3>FlowCITE: Learning Latent Dynamical Causal Processes with Flow Matching for Single-Cell Perturbation Prediction</h3>
+            <p class="authors"><strong>Your Name</strong>, Coauthor A, Coauthor B</p>
+            <p class="venue">Manuscript in preparation</p>
+          </article>
+
+          <article class="publication-item">
+            <h3>PC-aware Query-conditioned Neural Conditional Independence Testing for Causal Discovery</h3>
+            <p class="authors"><strong>Your Name</strong>, Coauthor A</p>
+            <p class="venue">Research prototype</p>
+          </article>
+
+          <article class="publication-item">
+            <h3>Nonlinear Extensions of Federated Causal Structure Learning with Kernel Residualization</h3>
+            <p class="authors"><strong>Your Name</strong>, Coauthor A, Coauthor B</p>
+            <p class="venue">Ongoing work</p>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>News</h2>
+          <ol class="news-list">
+            <li>
+              <time datetime="2026-06">2026-06</time>
+              <span>Personal academic homepage drafted for GitHub Pages deployment.</span>
+            </li>
+            <li>
+              <time datetime="2026-05">2026-05</time>
+              <span>Started experiments on single-cell perturbation prediction and causal flow matching.</span>
+            </li>
+            <li>
+              <time datetime="2026-04">2026-04</time>
+              <span>Explored PC-aware neural CI testing for scalable causal discovery.</span>
+            </li>
+          </ol>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Last updated: June 7, 2026</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+
+    <script src="assets/site.js"></script>
+  </body>
+</html>
