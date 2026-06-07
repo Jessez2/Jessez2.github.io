@@ -1,6 +1,6 @@
 # Juncai Zhang GitHub Pages Site
 
-This folder contains a static academic homepage inspired by the layout of https://hyda.cc/(Haiyue Dai, a excellent causal scholar).
+This folder hosts a static academic homepage whose layout is referenced from the personal website https://hyda.cc/ maintained by Haiyue Dai, a distinguished researcher in causal inference.
 
 ## How to use
 
